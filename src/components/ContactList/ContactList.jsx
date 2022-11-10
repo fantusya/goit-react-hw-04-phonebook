@@ -9,21 +9,6 @@ import {
   DeleteBtn,
 } from './ContactList.styled';
 
-// const ContactList = ({ contacts, onDeleteContact }) => {
-//   return (
-//     <ContactListUl>
-//       {contacts.map(contact => (
-//         <li key={contact.id}>
-//           <ContactItem name={contact.name} number={contact.number} />
-//           <button type="button" onClick={() => onDeleteContact(contact.id)}>
-//             Delete
-//           </button>
-//         </li>
-//       ))}
-//     </ContactListUl>
-//   );
-// };
-
 const ContactList = ({ contacts, onDeleteContact }) => {
   return (
     <ContactListTable>
